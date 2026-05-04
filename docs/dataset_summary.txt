@@ -1,0 +1,27 @@
+
+DATASET SUMMARY
+===============
+Source: UCI Individual Household Electric Power Consumption
+URL: https://archive.ics.uci.edu/dataset/235
+
+Size on disk: 126 MB
+Rows: 2,075,259
+Columns: 9
+Date range: 16/12/2006 to 26/11/2010
+Frequency: 1 reading per minute
+
+Missing values: 181,853 (0.974%)
+
+Column descriptions:
+- Date: Date of measurement (DD/MM/YYYY)
+- Time: Time of measurement (HH:MM:SS)  
+- Global_active_power: Total power consumed (kW) — MAIN SIGNAL
+- Global_reactive_power: Reactive power (kW)
+- Voltage: Household voltage (V) — normal 220-240V
+- Global_intensity: Current intensity (A)
+- Sub_metering_1: Kitchen circuit (Wh)
+- Sub_metering_2: Laundry circuit (Wh)
+- Sub_metering_3: Water heater + AC circuit (Wh)
+
+Loading method: Chunked loading (100,000 rows per chunk)
+Memory usage: 338.3 MB in RAM
